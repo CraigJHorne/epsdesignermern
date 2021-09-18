@@ -14,7 +14,7 @@ connectDB();
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.send("Hello");
+  res.send("API is running 1");
 });
 
 app.use("/api/users", userRoutes);
@@ -33,7 +33,7 @@ if (process.env.NODE_ENV === "production") {
   );
 } else {
   app.get("/", (req, res) => {
-    res.send("API is running..");
+    res.send("API is running 2");
   });
 }
 // --------------------------deployment------------------------------
