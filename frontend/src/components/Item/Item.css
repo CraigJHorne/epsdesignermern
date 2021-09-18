@@ -1,0 +1,292 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.svgcontainer {
+  justify-content: center;
+  align-items: center;
+  padding: 0px !important;
+  margin: 0px !important;
+  position: relative;
+}
+.itemsleeveclip {
+  position: absolute;
+  z-index: 6;
+}
+.itemlogo1top {
+  position: absolute;
+  top: 27.5%;
+  left: 30.5%;
+  z-index: 5;
+  height: 9.33%;
+}
+.itemlogo2top {
+  position: absolute;
+  top: 28.5%;
+  left: 17.6%;
+  z-index: 5;
+  height: 8%;
+}
+.itemlogo3top {
+  position: absolute;
+  top: 28.5%;
+  left: 24.1%;
+  z-index: 5;
+  height: 8%;
+}
+.itemlogo4top {
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  z-index: 5;
+  height: 5.3%;
+}
+.itemlogo5top {
+  position: absolute;
+  top: 20%;
+  left: 18.4%;
+  z-index: 5;
+  height: 5.3%;
+}
+.itemlogo6 {
+  position: absolute;
+  top: 40%;
+  left: 17.5%;
+  z-index: 6;
+  height: 17.7%;
+}
+.itemlogo7 {
+  position: absolute;
+  top: 12%;
+  left: 69.5%;
+  z-index: 5;
+  height: 5.7%;
+}
+.itemlogo8 {
+  position: absolute;
+  top: 18%;
+  left: 63.5%;
+  z-index: 5;
+  height: 12.4%;
+}
+.itemlogo9 {
+  position: absolute;
+  top: 62.4%;
+  left: 63.5%;
+  z-index: 5;
+  height: 12.4%;
+}
+.itemlogo10 {
+  position: absolute;
+  top: 75%;
+  left: 63.5%;
+  z-index: 5;
+  height: 12.4%;
+}
+.itemlogo11 {
+  position: absolute;
+  top: 30.8%;
+  left: 64.6%;
+  z-index: 5;
+  height: 31.1%;
+}
+.itemlogo12frontss {
+  position: absolute;
+  top: 15.7%;
+  left: 3.4%;
+  z-index: 5;
+  height: 6.5%;
+  transform: rotate(77deg);
+}
+.itemlogo13frontss {
+  position: absolute;
+  top: 14.5%;
+  left: 8.8%;
+  z-index: 5;
+  height: 8%;
+  transform: rotate(77deg);
+}
+.itemlogo14frontss {
+  position: absolute;
+  top: 15.7%;
+  left: 43.4%;
+  z-index: 5;
+  height: 6.5%;
+  transform: rotate(-77deg);
+}
+.itemlogo15frontss {
+  position: absolute;
+  top: 14.5%;
+  left: 39.4%;
+  z-index: 5;
+  height: 8%;
+  transform: rotate(-77deg);
+}
+.itemlogo12backss {
+  position: absolute;
+  top: 15.7%;
+  left: 89.1%;
+  z-index: 5;
+  height: 6.5%;
+  transform: rotate(-77deg);
+}
+.itemlogo13backss {
+  position: absolute;
+  top: 14.5%;
+  left: 85.3%;
+  z-index: 5;
+  height: 8%;
+  transform: rotate(-77deg);
+}
+.itemlogo14backss {
+  position: absolute;
+  top: 15.7%;
+  left: 49.2%;
+  z-index: 5;
+  height: 6.5%;
+  transform: rotate(77deg);
+}
+.itemlogo15backss {
+  position: absolute;
+  top: 14.5%;
+  left: 54.5%;
+  z-index: 5;
+  height: 8%;
+  transform: rotate(77deg);
+}
+
+.itemlogo12frontls {
+  position: absolute;
+  top: 15.7%;
+  left: 3.8%;
+  z-index: 5;
+  height: 6.5%;
+  transform: rotate(77deg);
+}
+.itemlogo13frontls {
+  position: absolute;
+  top: 30%;
+  left: 4.5%;
+  z-index: 5;
+  height: 8%;
+}
+.itemlogo14frontls {
+  position: absolute;
+  top: 15.7%;
+  left: 43.8%;
+  z-index: 5;
+  height: 6.5%;
+  transform: rotate(-77deg);
+}
+.itemlogo15frontls {
+  position: absolute;
+  top: 30%;
+  left: 42.8%;
+  z-index: 5;
+  height: 8%;
+}
+.itemlogo12backls {
+  position: absolute;
+  top: 15.7%;
+  left: 89.5%;
+  z-index: 5;
+  height: 6.5%;
+  transform: rotate(-77deg);
+}
+.itemlogo13backls {
+  position: absolute;
+  top: 30%;
+  left: 89%;
+  z-index: 5;
+  height: 8%;
+}
+.itemlogo14backls {
+  position: absolute;
+  top: 15.7%;
+  left: 49.6%;
+  z-index: 5;
+  height: 6.5%;
+  transform: rotate(77deg);
+}
+.itemlogo15backls {
+  position: absolute;
+  top: 30%;
+  left: 51%;
+  z-index: 5;
+  height: 8%;
+}
+
+.itemlogo1shorts {
+  position: absolute;
+  top: 58.5%;
+  left: 19.5%;
+  z-index: 5;
+  height: 9.33%;
+  transform: rotate(5deg);
+}
+.itemlogo2shorts {
+  position: absolute;
+  top: 58.5%;
+  left: 35.3%;
+  z-index: 5;
+  height: 8%;
+  transform: rotate(-5deg);
+}
+.itemlogo3shorts {
+  position: absolute;
+  top: 38.5%;
+  left: 58.6%;
+  z-index: 5;
+  height: 12.4%;
+}
+.itemlogo4shorts {
+  position: absolute;
+  top: 58.5%;
+  left: 56%;
+  z-index: 5;
+  height: 8%;
+  transform: rotate(5deg);
+}
+.itemlogo5shorts {
+  position: absolute;
+  top: 58.5%;
+  left: 72.5%;
+  z-index: 5;
+  height: 8%;
+  transform: rotate(-5deg);
+}
+
+.itemdesignpath {
+  position: absolute;
+  z-index: 4;
+}
+
+.itemdesignpathbreak {
+  position: absolute;
+  z-index: 5;
+}
+
+.itempatternpath {
+  position: absolute;
+  z-index: 3;
+}
+
+.itembreakpath {
+  position: absolute;
+  z-index: 5;
+}
+
+.itembasepath {
+  position: absolute;
+  z-index: 2;
+}
+
+.itembaseimage {
+  position: relative;
+  z-index: 1;
+}
+
+.select {
+  z-index: 100;
+}

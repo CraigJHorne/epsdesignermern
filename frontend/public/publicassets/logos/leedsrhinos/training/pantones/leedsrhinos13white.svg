@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 240.9 34" style="enable-background:new 0 0 240.9 34;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{fill:#FFFFFF;}
+	.st2{font-family:'Arial-BoldMT';}
+	.st3{font-size:7.507px;}
+	.st4{fill:#13110C;}
+	.st5{fill:#010202;}
+	.st6{font-size:9.6845px;}
+	.st7{fill:#70D44B;}
+</style>
+<g>
+	<g>
+		<radialGradient id="SVGID_1_" cx="71.0589" cy="15.4863" r="29.7415" gradientUnits="userSpaceOnUse">
+			<stop  offset="0" style="stop-color:#FEFEFE"/>
+			<stop  offset="0.1467" style="stop-color:#E3F6DC"/>
+			<stop  offset="0.4431" style="stop-color:#B2E89F"/>
+			<stop  offset="0.6944" style="stop-color:#8EDD71"/>
+			<stop  offset="0.8878" style="stop-color:#78D755"/>
+			<stop  offset="1" style="stop-color:#70D44B"/>
+		</radialGradient>
+		<rect x="30.5" y="4.4" class="st0" width="81.1" height="22.2"/>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 33.7749 18.3654)" class="st1 st2 st3">7488C</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 86.8726 18.3654)" class="st1 st2 st3">7488C</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 59.5352 18.3654)" class="st4 st2 st3">WHITE</text>
+	</g>
+</g>
+<g>
+	<rect x="160.9" y="4.4" class="st5" width="37.9" height="22.2"/>
+	<g>
+		<text transform="matrix(1 0 0 1 163.375 18.8898)" class="st1 st2 st6">BLACK</text>
+	</g>
+</g>
+<g>
+	<g>
+		<g>
+			<rect x="118.6" y="4.4" class="st7" width="37.9" height="22.2"/>
+		</g>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 122.7314 18.8898)" class="st1 st2 st6">7488C</text>
+	</g>
+</g>
+</svg>
