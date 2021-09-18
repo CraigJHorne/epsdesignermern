@@ -22,21 +22,20 @@ app.use("/api/collections", collectionRoutes);
 app.use("/api/items", itemRoutes);
 app.use("/api/garments", garmentRoutes);
 
-// --------------------------deployment------------------------------
-const __dirname = path.resolve();
+// ------------ deployment ------------------
 
+__dirname = path.resolve();
 if (process.env.NODE_ENV === "production") {
   app.use(express.static(path.join(__dirname, "/frontend/build")));
 
-  app.get("*", (req, res) =>
-    res.sendFile(path.resolve(__dirname, "frontend", "build", "index.html"))
-  );
+  app.get("*", (req, res) => {
+    res.sendFile(path.resolve(__dirname, "frontend", "build", "index.html"));
+  });
 } else {
   app.get("/", (req, res) => {
     res.send("API is running 2");
   });
 }
-// --------------------------deployment------------------------------
 
 app.use(notFound);
 app.use(errorHandler);
