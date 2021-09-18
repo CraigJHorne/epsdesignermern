@@ -13,15 +13,6 @@ dotenv.config();
 connectDB();
 app.use(express.json());
 
-app.get("/", (req, res) => {
-  res.send("API is running 1");
-});
-
-app.use("/api/users", userRoutes);
-app.use("/api/collections", collectionRoutes);
-app.use("/api/items", itemRoutes);
-app.use("/api/garments", garmentRoutes);
-
 // ------------ deployment ------------------
 
 __dirname = path.resolve();
@@ -36,6 +27,15 @@ if (process.env.NODE_ENV === "production") {
     res.send("API is running 2");
   });
 }
+
+app.get("/", (req, res) => {
+  res.send("API is running 1");
+});
+
+app.use("/api/users", userRoutes);
+app.use("/api/collections", collectionRoutes);
+app.use("/api/items", itemRoutes);
+app.use("/api/garments", garmentRoutes);
 
 app.use(notFound);
 app.use(errorHandler);
