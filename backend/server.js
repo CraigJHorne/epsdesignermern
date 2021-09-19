@@ -13,6 +13,10 @@ dotenv.config();
 connectDB();
 app.use(express.json());
 
+app.get("/", (req, res) => {
+  res.send("API is running 1");
+});
+
 app.use("/api/users", userRoutes);
 app.use("/api/collections", collectionRoutes);
 app.use("/api/items", itemRoutes);
@@ -20,7 +24,7 @@ app.use("/api/garments", garmentRoutes);
 
 // ------------ deployment ------------------
 
-__dirname = path.resolve();
+const __dirname = path.resolve();
 if (process.env.NODE_ENV === "production") {
   app.use(express.static(path.join(__dirname, "/frontend/build")));
 
@@ -39,11 +43,3 @@ app.use(errorHandler);
 const PORT = process.env.PORT || 5000;
 
 app.listen(PORT, console.log(`Server started on ${PORT}`));
-
-app.listen(
-  PORT,
-  console.log(
-    `Server running in ${process.env.NODE_ENV} mode on port ${PORT}..`.yellow
-      .bold
-  )
-);
